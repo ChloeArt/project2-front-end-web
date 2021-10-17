@@ -1,0 +1,515 @@
+@font-mono:'Roboto Mono', monospace;;
+@red: #ee4e37;
+@transition: transform 550ms;
+
+.beige, .pink, .blue, .side, .green, .red {
+  min-width: 480px;
+  max-width: 1280px;
+  font-family: @font-mono;
+}
+  
+h1, h2{
+  text-transform: uppercase;
+}
+
+body {
+  height: 100vh;
+  overflow:hidden;
+  margin: auto;
+}
+
+main{
+  background-color:#156aaf;
+}
+.beige{
+  background-color: #f0efdd;
+}
+.red{
+  background-color: @red;
+}
+.side{
+  background-color: @red;
+}
+    
+.big-green{
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    right: 35%;
+    zoom: 0.7;
+    transition: @transition;
+  }
+  .big-green:hover {
+    transform: translateX(-250px);
+    transition-timing-function: ease-out;
+  }
+@media(min-width:1280px){
+  .big-green{
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    right: 35%;
+    zoom: 0.8;
+  }
+  .green{
+    width: 200px;
+    height: 600px;
+  }
+  .big-beige{
+    zoom: 1;
+  }
+}
+  .green{
+    position: relative;
+    background-color: #66c192;
+    width: 150px;
+    height: 550px;
+    padding-top: 300px;
+  }
+
+  .green .top{
+    font-size: 80px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    margin:0;
+  }
+  .green .left{
+    font-size: 80px;
+    position: absolute;
+    left: -65px;
+    line-height: 190px;
+    transform: rotate(-90deg);
+  }
+  .green .right{
+    font-size: 80px;
+    position: absolute;
+    right: -135px;
+    line-height: 100px;
+    transform: rotate(90deg);
+  }
+  .green .bot{
+    font-size: 80px;
+    position: absolute;
+    margin:0;
+    bottom: -15px;
+    left: 0;
+  }
+  .green .center{
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -190px;
+}
+  .green h2{
+    font-size: 30px;
+  }
+
+  .green h4{
+    text-align: right;
+  }
+  .green img{
+    padding-top: 90px;
+    width: 20px;
+    height: 20px;
+  }
+
+   .green p{
+   font-size: 10px;
+  }
+
+  .green h3, h4{
+    padding-top: 20px;
+  }
+
+
+
+.big-beige{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    zoom: 1;
+    transition: @transition;
+}
+
+.big-beige:hover {
+    transform: translatey(-250px);
+    transition-timing-function: ease-out;
+  }
+
+@media (max-width: 800px){
+  .big-beige{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    zoom: 0.8;
+}
+}
+
+    .beige{
+      position: relative;
+      width: 150px;
+      height: 550px;
+      padding-top: 300px;
+    }
+
+    .beige .top{
+      font-size: 80px;
+      position: absolute;
+      top: -20px;
+      left: 0;
+      margin:0;
+    }
+
+    .beige .left{
+      font-size: 80px;
+      position: absolute;
+      left: -65px;
+      line-height: 190px;
+      transform: rotate(-90deg);
+    }
+
+    .beige .right{
+      font-size: 80px;
+      position: absolute;
+      right: -135px;
+      line-height: 100px;
+      transform: rotate(90deg);
+    }
+
+    .beige .bot{
+      font-size: 80px;
+      position: absolute;
+      margin:0;
+      bottom: -15px;
+      left: 0;
+    }
+
+    .beige .center{
+      position: relative;
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-top: -190px;
+  }
+
+
+    .beige h2{
+      font-size: 30px;
+    }
+
+    .beige h4{
+      text-align: right;
+    }
+    .beige img{
+      padding-top: 90px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .beige p{
+    font-size: 10px;
+    }
+
+    .beige h3, h4{
+      padding-top: 20px;
+    }
+
+
+  .big-pink{
+    position: absolute;
+    background-color: #f6c7dc;
+    left: 0;
+    top: 3%;
+    zoom: 0.95;
+    transition: @transition;
+  }
+
+  .big-pink:hover {
+    transform: translateX(100px);
+    transition-timing-function: ease-out;
+  }
+
+
+    .pink{
+      position: relative;
+      width: 150px;
+      height: 550px;
+      padding-top: 300px;
+
+    }
+
+    .pink .top{
+      font-size: 80px;
+      position: absolute;
+      top: -20px;
+      left: 0;
+      margin:0;
+    }
+    .pink .left{
+      font-size: 80px;
+      position: absolute;
+      left: -65px;
+      line-height: 190px;
+      transform: rotate(-90deg);
+    }
+    .pink .right{
+      font-size: 80px;
+      position: absolute;
+      right: -135px;
+      line-height: 100px;
+      transform: rotate(90deg);
+    }
+    .pink .bot{
+      font-size: 80px;
+      position: absolute;
+      margin:0;
+      bottom: -15px;
+      left: 0;
+    }
+    .pink .center{
+      position: relative;
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-top: -190px;
+  }
+    .pink h2{
+      font-size: 30px;
+    }
+
+    .pink h4{
+      text-align: right;
+    }
+    .pink img{
+      padding-top: 90px;
+      width: 20px;
+      height: 20px;
+    }
+
+     .pink p{
+     font-size: 10px;
+    }
+
+    .pink h3, h4{
+      padding-top: 20px;
+    }
+
+
+
+.big-side{
+  position:absolute;
+  top: 20%;
+  left: -60%;
+}
+    .side{
+      position: relative;
+      backgound-color: @red;
+      width: 150px;
+      height: 550px;
+      padding-top: 300px;
+    }
+    .side .top{
+          font-size: 80px;
+          position: absolute;
+          top: -20px;
+          left: 0;
+          margin:0;
+        }
+        .side .left{
+          font-size: 80px;
+          position: absolute;
+          left: -65px;
+          line-height: 190px;
+          transform: rotate(-90deg);
+        }
+        .side .right{
+          font-size: 80px;
+          position: absolute;
+          right: -135px;
+          line-height: 100px;
+          transform: rotate(90deg);
+        }
+        .side .bot{
+          font-size: 80px;
+          position: absolute;
+          margin:0;
+          bottom: -15px;
+          left: 0;
+        }
+      .side .center{
+          position: relative;
+          margin-left: 150px;
+          margin-right: 150px;
+          margin-top: -190px;
+        }
+
+        .side h2{
+          font-size: 30px;
+        }
+
+        .side h4{
+          text-align: right;
+        }
+        .side img{
+          padding-top: 90px;
+          width: 20px;
+          height: 20px;
+        }
+
+        .side p{
+        font-size: 10px;
+        }
+
+        .side h3, h4{
+          padding-top: 20px;
+        }
+
+
+.big-red{
+  position: absolute;
+  top:7%;
+  right: 0;
+  zoom: 0.8;
+  transition: @transition;
+}
+
+.big-red:hover {
+    transform: translatey(550px);
+    transition-timing-function: ease-out;
+  }
+
+  .red{
+    position: relative;
+    background-color: @red;
+    width: 150px;
+    height: 550px;
+    padding-top: 300px;
+  }
+
+  .red .top{
+    font-size: 80px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    margin:0;
+  }
+
+  .red .left{
+    font-size: 80px;
+    position: absolute;
+    left: -65px;
+    line-height: 190px;
+    transform: rotate(-90deg);
+  }
+
+  .red .right{
+    font-size: 80px;
+    position: absolute;
+    right: -135px;
+    line-height: 100px;
+    transform: rotate(90deg);
+  }
+
+  .red .bot{
+    font-size: 80px;
+    position: absolute;
+    margin:0;
+    bottom: -15px;
+    left: 0;
+  }
+
+  .red .center{
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -190px;
+}
+
+
+  .red h2{
+    font-size: 30px;
+  }
+
+  .red h4{
+    text-align: right;
+  }
+  .red img{
+    padding-top: 90px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .red p{
+  font-size: 10px;
+  }
+
+  .red h3, h4{
+    padding-top: 20px;
+  }
+
+
+
+.big-blue{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color:#156aaf;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+  .blue{
+    position: relative;
+    width: 1280px;
+    height: 100vh;
+    padding-top: 300px;
+  }
+
+  .blue .top{
+    font-size: 100px;
+    position: fixed;
+    top: -80px;
+    left: 35%;
+  }
+
+  .blue .left{
+    font-size: 100px;
+    position: fixed;
+    left: -80px;
+    line-height: 190px;
+    transform: rotate(-90deg);
+  }
+
+  .blue .right{
+    font-size: 100px;
+    position: fixed;
+    right: -135px;
+    line-height: 100px;
+    transform: rotate(90deg);
+  }
+
+  .blue .bot{
+    font-size: 100px;
+    position: fixed;
+    margin:0;
+    bottom: -15px;
+    left: 35%;
+  }
+
+.blue .center{
+    position: fixed;
+    top: 20%;
+    left: 40%;
+}
+  .blue h2{
+    font-size: 30px;
+  }
+
+ 
+  .blue img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .blue p{
+  font-size: 10px;
+  }
